@@ -8,5 +8,5 @@ import react from '@vitejs/plugin-react'
 // (a "user/organization site" repo), set base back to '/'.
 export default defineConfig({
   plugins: [react()],
-  base: '/wedding-invitation/',
+  base: '/lindy-andrea-wedding-invite/',
 })
