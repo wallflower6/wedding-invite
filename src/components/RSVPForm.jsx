@@ -3,7 +3,7 @@ import { useState } from "react";
 // Paste the Web App URL you get after deploying the Google Apps Script.
 const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyQnLYMBWhIbK7a8ewSNt7CVb-lNi_V5NPKBNRijHgZQs0HkNfDpoB3RCY0xHWDTD39mw/exec";
 
-const DIETARY_OPTIONS = ["Halal", "Vegetarian (素食)", "None / Will Specify (无)"];
+const DIETARY_OPTIONS = ["None / Will Specify (无)", "Vegetarian (素食)", "Halal"];
 
 const initialForm = {
   name: "",
