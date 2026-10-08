@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import DoorHero from './components/DoorHero'
 import Announce from './components/Announce'
 import Story from './components/Story'
+import Photo from './components/Photo'
 import Schedule from './components/Schedule'
 import Venue from './components/Venue'
 import RsvpSection from './components/RsvpSection'
@@ -30,6 +31,7 @@ export default function App() {
         </div>
 
         <Announce ref={announceRef} />
+        <Photo />
         <Schedule />
         <Venue />
         <RSVPForm />

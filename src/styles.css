@@ -367,3 +367,36 @@ footer.site-footer .seal { margin-bottom: 0.8rem; }
   .door-hero__names { top: 6%; }
   .door-hero__hint { bottom: 4%; }
 }
+
+/* ---- photo ---- */
+.photo-frame {
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid rgba(201, 161, 90, 0.5);
+  box-shadow: 0 6px 24px rgba(36, 26, 20, 0.12);
+  border-radius: 2px;
+}
+.photo-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 1px;
+}
+.photo-caption {
+  text-align: center;
+  font-family: var(--display-en);
+  font-style: italic;
+  color: #6b5a45;
+  font-size: 0.95rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .photo-frame { max-width: 320px; padding: 8px; }
+  .photo-caption { font-size: 0.88rem; }
+}
+
