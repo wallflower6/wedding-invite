@@ -24,7 +24,7 @@ export const CONFIG = {
   events: [
     // { time: '10:00', cn: '迎親 · 敲門', en: "Door games & the groom's procession" },
     // { time: '11:30', cn: '茶禮', en: 'Tea ceremony with both families' },
-    { time: '17:00', cn: '茶礼', en: 'Tea ceremony with family' },
+    { time: '17:30', cn: '茶礼', en: 'Tea ceremony with family' },
     { time: '18:30', cn: '婚宴開始', en: 'Banquet begins' },
     // { time: '20:00', cn: '敬酒', en: 'Toasting & table rounds' },
     { time: '21:30', cn: '送客', en: 'End' },

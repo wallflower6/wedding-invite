@@ -80,6 +80,7 @@ export default function RSVPForm() {
     <form className="rsvp" onSubmit={handleSubmit}>
       <style>{css}</style>
       <h2 className="rsvp-title">RSVP</h2>
+      <p className="rsvp-deadline">Kindly reply by 1 December 2026</p>
 
       <label className="rsvp-field">
         <span>Name (姓名)</span>
@@ -163,6 +164,7 @@ const css = `
 }
 .rsvp *, .rsvp *::before, .rsvp *::after { box-sizing: inherit; }
 .rsvp-title { margin: 0 0 1rem; }
+.rsvp-deadline { margin: 0 0 1rem; font-style: italic;}
 .rsvp-field { display: block; margin-bottom: 1rem; }
 .rsvp-field > span { display: block; margin-bottom: 0.35rem; font-weight: 600; }
 .rsvp-field input,
